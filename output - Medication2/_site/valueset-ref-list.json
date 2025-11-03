@@ -1,0 +1,100 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "systems" : ["http://hl7.org/fhir/days-of-week"],
+      "oids" : ["2.16.840.1.113883.4.642.3.512"],
+      "sources" : ["2.16.840.1.113883.4.642.3.512"],
+      "uses" : {
+      },
+      "StructureDefinition-mp-InstructionsForUse.DosageInstructions.html" : "mp InstructionsForUse.DosageInstructions"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/event-timing",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "EventTiming",
+      "title" : "EventTiming",
+      "description" : "Real world event relating to the schedule.",
+      "systems" : [
+        "http://hl7.org/fhir/event-timing",
+        "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.75"],
+      "sources" : ["2.16.840.1.113883.4.642.3.75"],
+      "uses" : {
+      },
+      "StructureDefinition-mp-InstructionsForUse.DosageInstructions.html" : "mp InstructionsForUse.DosageInstructions"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-admin-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Category Codes",
+      "title" : "Medication administration  category  codes",
+      "description" : "MedicationAdministration Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-admin-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.347"],
+      "sources" : ["2.16.840.1.113883.4.642.3.347"],
+      "uses" : {
+      },
+      "StructureDefinition-mp-MedicationAdministration2.html" : "mp MedicationAdministration2"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-admin-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Status Codes",
+      "title" : "Medication administration  status  codes",
+      "description" : "MedicationAdministration Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-admin-status"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.340"],
+      "sources" : ["2.16.840.1.113883.4.642.3.340"],
+      "uses" : {
+      },
+      "StructureDefinition-mp-MedicationAdministration2.html" : "mp MedicationAdministration2"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication usage category codes",
+      "title" : "Medication usage category codes",
+      "description" : "Medication Status Codes",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/medication-statement-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.370"],
+      "uses" : {
+      },
+      "StructureDefinition-mp-MedicationUse2.html" : "mp MedicationUse2"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationDispense Category Codes",
+      "title" : "Medication dispense  category  codes",
+      "description" : "MedicationDispense Category Codes",
+      "systems" : [
+        "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-category"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1314"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1314"],
+      "uses" : {
+      },
+      "StructureDefinition-mp-AdministrationAgreement.html" : "mp AdministrationAgreement",
+      "StructureDefinition-mp-MedicationDispense.html" : "mp MedicationDispense"
+    }
+  ]
+}

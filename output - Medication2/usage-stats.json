@@ -1,0 +1,509 @@
+{
+  "package": "example.org.fhir.plugathon.validation",
+  "version": "0.1.0",
+  "fhirVersion": "4.0.1",
+  "extensions": [
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-AdministrationAgreement.AdditionalInformation",
+      "title": "ext AdministrationAgreement.AdditionalInformation",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-AdministrationAgreement.AdministrationAgreementDateTime",
+      "title": "ext AdministrationAgreement.AdministrationAgreementDateTime",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-AdministrationAgreement.ReasonModificationOrDiscontinuation",
+      "title": "ext AdministrationAgreement.ReasonModificationOrDiscontinuation",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-AsAgreedIndicator",
+      "title": "ext AsAgreedIndicator",
+      "types": [
+        "boolean"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-Communication.Payload.ContentCodeableConcept",
+      "title": "ext Communication.Payload.ContentCodeableConcept",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-DispenseRequest.AdditionalWishes",
+      "title": "ext DispenseRequest.AdditionalWishes",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-DispenseRequest.DispenseLocation",
+      "title": "ext DispenseRequest.DispenseLocation",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-DispenseRequest.FinancialIndicationCode",
+      "title": "ext DispenseRequest.FinancialIndicationCode",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-Dosage-AsNeededFor",
+      "title": "ext Dosage AsNeededFor",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-InstructionsForUse.RepeatPeriodCyclicalSchedule",
+      "title": "ext InstructionsForUse.RepeatPeriodCyclicalSchedule",
+      "types": [
+        "Duration"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAdministration2.AgreedDateTime",
+      "title": "ext MedicationAdministration2.AgreedDateTime",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAdministration2.InjectionPatchSite",
+      "title": "ext MedicationAdministration2.InjectionPatchSite",
+      "types": [
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Extension",
+        "Coding",
+        "string"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAdministration2.ReasonForDeviation",
+      "title": "ext MedicationAdministration2.ReasonForDeviation",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAgreement.MedicationAgreementAdditionalInformation",
+      "title": "ext MedicationAgreement.MedicationAgreementAdditionalInformation",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAgreement.NextPractitioner",
+      "title": "ext MedicationAgreement.NextPractitioner",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAgreement.RelationMedicationUse",
+      "title": "ext MedicationAgreement.RelationMedicationUse",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationDispense.DistributionForm",
+      "title": "ext MedicationDispense.DistributionForm",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationDispense.MedicationDispenseAdditionalInformation",
+      "title": "ext MedicationDispense.MedicationDispenseAdditionalInformation",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationDispense.RequestDate",
+      "title": "ext MedicationDispense.RequestDate",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationOverview.SourceOrganization",
+      "title": "Ext MedicatonOverview.SourceOrganization",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationOverview.Verification",
+      "title": "Ext MedicatonOverview.Verification",
+      "types": [
+        "boolean",
+        "dateTime",
+        "boolean",
+        "dateTime",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationUse2.Author",
+      "title": "ext MedicationUse2.Author",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationUse2.Prescriber",
+      "title": "ext MedicationUse2.Prescriber",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-PeriodOfUse.Condition",
+      "title": "ext-PeriodOfUse.Condition",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-PharmaceuticalTreatment.Identifier",
+      "title": "ext PharmaceuticalTreatment.Identifier",
+      "types": [
+        "Identifier",
+        "string",
+        "Extension",
+        "code",
+        "CodeableConcept",
+        "uri",
+        "string",
+        "Period",
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-RegistrationDateTime",
+      "title": "ext RegistrationDateTime",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-RelationAdministrationAgreement",
+      "title": "ext RelationAdministrationAgreement",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-RenderedDosageInstruction",
+      "title": "ext RenderedDosageInstruction",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-ResourceCategory",
+      "title": "ext ResourceCategory",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://nictiz.nl/fhir/StructureDefinition/ext-StopType",
+      "title": "ext StopType",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
+  "profiles": {
+    "MedicationDispense": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-MedicationDispense",
+        "title": "mp MedicationDispense"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-VariableDosingRegimen",
+        "title": "mp VariableDosingRegimen"
+      }
+    ],
+    "MedicationAdministration": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-MedicationAdministration2",
+        "title": "mp MedicationAdministration2"
+      }
+    ],
+    "List": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-MedicationOverview",
+        "title": "mp MedicationOverview"
+      }
+    ],
+    "Bundle": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-ReplyProposalMedicationAgreement-Bundle",
+        "title": "mp ReplyProposalMedicationAgreement Bundle"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-MedicationUse2",
+        "title": "mp MedicationUse2"
+      }
+    ],
+    "Medication": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-PharmaceuticalProduct",
+        "title": "mp PharmaceuticalProduct"
+      }
+    ],
+    "Communication": [
+      {
+        "url": "http://nictiz.nl/fhir/StructureDefinition/mp-ReplyProposalMedicationAgreement",
+        "title": "mp ReplyProposalMedicationAgreement"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/11179-permitted-value-conceptmap": [
+      "StructureDefinition.differential.element.binding.valueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/timing-exact": [
+      "Dosage.timing.repeat"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
+      "StructureDefinition.snapshot"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-AdditionalCategory": [
+      "MedicationAdministration.category",
+      "MedicationDispense.category",
+      "MedicationStatement.category"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-AdministrationAgreement.AdditionalInformation": [
+      "MedicationDispense"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-AdministrationAgreement.AdministrationAgreementDateTime": [
+      "MedicationDispense"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-AdministrationAgreement.ReasonModificationOrDiscontinuation": [
+      "MedicationDispense"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-AnatomicalLocation.Laterality": [
+      "Extension.value[x]",
+      "MedicationAdministration.extension.value[x]"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-AsAgreedIndicator": [
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-Communication.Payload.ContentCodeableConcept": [
+      "Communication.payload.content[x]"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-Context-EpisodeOfCare": [
+      "MedicationAdministration.context",
+      "MedicationRequest",
+      "MedicationStatement.context"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-CopyIndicator": [
+      "MedicationDispense",
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-DispenseRequest.AdditionalWishes": [
+      "MedicationRequest"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-DispenseRequest.DispenseLocation": [
+      "MedicationRequest.dispenseRequest"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-DispenseRequest.FinancialIndicationCode": [
+      "MedicationRequest"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-Dosage-AsNeededFor": [
+      "Dosage"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-InstructionsForUse.RepeatPeriodCyclicalSchedule": [
+      "MedicationDispense",
+      "MedicationRequest",
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAdministration2.AgreedDateTime": [
+      "MedicationAdministration"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAdministration2.InjectionPatchSite": [
+      "MedicationAdministration"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAdministration2.ReasonForDeviation": [
+      "MedicationAdministration"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAgreement.MedicationAgreementAdditionalInformation": [
+      "MedicationRequest"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAgreement.NextPractitioner": [
+      "MedicationRequest"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationAgreement.RelationMedicationUse": [
+      "MedicationRequest.basedOn"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationDispense.DistributionForm": [
+      "MedicationDispense"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationDispense.MedicationDispenseAdditionalInformation": [
+      "MedicationDispense"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationDispense.RequestDate": [
+      "MedicationDispense"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationOverview.SourceOrganization": [
+      "List.source"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationOverview.Verification": [
+      "List"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationUse2.Author": [
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-MedicationUse2.Prescriber": [
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-PeriodOfUse.Condition": [
+      "MedicationDispense.extension.value[x]",
+      "MedicationRequest.extension.value[x]"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-PharmaceuticalProduct.Description": [
+      "Medication"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-PharmaceuticalTreatment.Identifier": [
+      "MedicationAdministration",
+      "MedicationDispense",
+      "MedicationRequest",
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-RegistrationDateTime": [
+      "MedicationAdministration",
+      "MedicationDispense",
+      "MedicationRequest"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-RelationAdministrationAgreement": [
+      "MedicationDispense",
+      "MedicationRequest.basedOn"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-RenderedDosageInstruction": [
+      "MedicationDispense",
+      "MedicationRequest",
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-ResourceCategory": [
+      "MedicationStatement.derivedFrom"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-StopType": [
+      "MedicationDispense",
+      "MedicationRequest",
+      "MedicationStatement"
+    ],
+    "http://nictiz.nl/fhir/StructureDefinition/ext-TimeInterval.Period": [
+      "MedicationDispense",
+      "MedicationRequest"
+    ]
+  }
+}

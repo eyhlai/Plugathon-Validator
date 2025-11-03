@@ -1,0 +1,3727 @@
+{
+  "date" : "Thu, 30 Oct, 2025 10:56:51 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/IG_generated.json",
+      "size" : 1314,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 23
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 46
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 192
+        },
+        {
+          "activity" : "validate",
+          "start" : 126,
+          "length" : 13643
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 54
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 174
+        },
+        {
+          "activity" : "generate2",
+          "start" : 157,
+          "length" : 430
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2321,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-AdministrationAgreement.AdditionalInformation.xml",
+      "size" : 2551,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 62
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 24
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 29
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 59,
+          "length" : 2
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 59,
+          "length" : 80
+        },
+        {
+          "activity" : "validate",
+          "start" : 62,
+          "length" : 10093
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 73
+        },
+        {
+          "activity" : "generate2",
+          "start" : 158,
+          "length" : 2198
+        },
+        {
+          "activity" : "generate2",
+          "start" : 188,
+          "length" : 1360
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-AdministrationAgreement.AdministrationAgreementDateTime.xml",
+      "size" : 2597,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 30
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 72,
+          "length" : 253
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 60
+        },
+        {
+          "activity" : "generate2",
+          "start" : 160,
+          "length" : 265
+        },
+        {
+          "activity" : "generate2",
+          "start" : 189,
+          "length" : 140
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-AdministrationAgreement.ReasonModificationOrDiscontinuation.xml",
+      "size" : 3324,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 36
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 24
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 24
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 232
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 71
+        },
+        {
+          "activity" : "generate2",
+          "start" : 160,
+          "length" : 263
+        },
+        {
+          "activity" : "generate2",
+          "start" : 189,
+          "length" : 148
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-AsAgreedIndicator.xml",
+      "size" : 2639,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 52,
+          "length" : 28
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 261
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 68
+        },
+        {
+          "activity" : "generate2",
+          "start" : 160,
+          "length" : 262
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 96
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-Communication.Payload.ContentCodeableConcept.xml",
+      "size" : 2266,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 50,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 37
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 192
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 161,
+          "length" : 234
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 69
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-DispenseRequest.AdditionalWishes.xml",
+      "size" : 2689,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 17
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 33
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 22
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 221
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 52
+        },
+        {
+          "activity" : "generate2",
+          "start" : 161,
+          "length" : 281
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 74
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-DispenseRequest.DispenseLocation.xml",
+      "size" : 2984,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 35
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 34
+        },
+        {
+          "activity" : "validate",
+          "start" : 73,
+          "length" : 301
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 71
+        },
+        {
+          "activity" : "generate2",
+          "start" : 161,
+          "length" : 228
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 73
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-DispenseRequest.FinancialIndicationCode.xml",
+      "size" : 3676,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 32
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 50
+        },
+        {
+          "activity" : "validate",
+          "start" : 74,
+          "length" : 195
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 142,
+          "length" : 67
+        },
+        {
+          "activity" : "generate2",
+          "start" : 161,
+          "length" : 279
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 69
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-Dosage-AsNeededFor.xml",
+      "size" : 2567,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 30
+        },
+        {
+          "activity" : "scan",
+          "start" : 59,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 47
+        },
+        {
+          "activity" : "validate",
+          "start" : 74,
+          "length" : 179
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 64
+        },
+        {
+          "activity" : "generate2",
+          "start" : 162,
+          "length" : 284
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 40
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-InstructionsForUse.RepeatPeriodCyclicalSchedule.xml",
+      "size" : 4051,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 20
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 30
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "scan",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 27
+        },
+        {
+          "activity" : "validate",
+          "start" : 74,
+          "length" : 158
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 61
+        },
+        {
+          "activity" : "generate2",
+          "start" : 162,
+          "length" : 331
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 65
+        },
+        {
+          "activity" : "generateLogicals",
+          "start" : 204,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationAdministration2.AgreedDateTime.xml",
+      "size" : 2799,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 27
+        },
+        {
+          "activity" : "scan",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 74,
+          "length" : 179
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 57
+        },
+        {
+          "activity" : "generate2",
+          "start" : 162,
+          "length" : 321
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 130
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationAdministration2.InjectionPatchSite.xml",
+      "size" : 3275,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 30
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 23
+        },
+        {
+          "activity" : "validate",
+          "start" : 74,
+          "length" : 336
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 74
+        },
+        {
+          "activity" : "generate2",
+          "start" : 162,
+          "length" : 348
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 100
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 26
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationAdministration2.ReasonForDeviation.xml",
+      "size" : 2798,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 75,
+          "length" : 167
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 163,
+          "length" : 232
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 62
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationAgreement.MedicationAgreementAdditionalInformation.xml",
+      "size" : 3293,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 9
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 75,
+          "length" : 142
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 60
+        },
+        {
+          "activity" : "generate2",
+          "start" : 163,
+          "length" : 249
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 76
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationAgreement.NextPractitioner.xml",
+      "size" : 2844,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 19
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 17
+        },
+        {
+          "activity" : "validate",
+          "start" : 75,
+          "length" : 152
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 53
+        },
+        {
+          "activity" : "generate2",
+          "start" : 163,
+          "length" : 316
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 85
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 9
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationAgreement.RelationMedicationUse.xml",
+      "size" : 2673,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 26
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 75,
+          "length" : 103
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 50
+        },
+        {
+          "activity" : "generate2",
+          "start" : 164,
+          "length" : 255
+        },
+        {
+          "activity" : "generate2",
+          "start" : 190,
+          "length" : 56
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationDispense.DistributionForm.xml",
+      "size" : 2629,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 75,
+          "length" : 122
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 57
+        },
+        {
+          "activity" : "generate2",
+          "start" : 164,
+          "length" : 233
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 58
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 2
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationDispense.MedicationDispenseAdditionalInformation.xml",
+      "size" : 3072,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 27
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 8
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 8
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 25
+        },
+        {
+          "activity" : "validate",
+          "start" : 75,
+          "length" : 136
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 71
+        },
+        {
+          "activity" : "generate2",
+          "start" : 164,
+          "length" : 238
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 46
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationDispense.RequestDate.xml",
+      "size" : 2477,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 26
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 13
+        },
+        {
+          "activity" : "validate",
+          "start" : 76,
+          "length" : 113
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 82
+        },
+        {
+          "activity" : "generate2",
+          "start" : 164,
+          "length" : 233
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 45
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationOverview.SourceOrganization.xml",
+      "size" : 2773,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 22
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 10
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 7
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 76,
+          "length" : 136
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 70
+        },
+        {
+          "activity" : "generate2",
+          "start" : 165,
+          "length" : 230
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 47
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationOverview.Verification.xml",
+      "size" : 5863,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 32
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 35
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 33
+        },
+        {
+          "activity" : "validate",
+          "start" : 76,
+          "length" : 1042
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 195
+        },
+        {
+          "activity" : "generate2",
+          "start" : 165,
+          "length" : 442
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 117
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 11
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationUse2.Author.xml",
+      "size" : 2828,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 19
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 16
+        },
+        {
+          "activity" : "validate",
+          "start" : 77,
+          "length" : 201
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 143,
+          "length" : 93
+        },
+        {
+          "activity" : "generate2",
+          "start" : 165,
+          "length" : 259
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 50
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 3
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-MedicationUse2.Prescriber.xml",
+      "size" : 2710,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 16
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 77,
+          "length" : 201
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 95
+        },
+        {
+          "activity" : "generate2",
+          "start" : 166,
+          "length" : 237
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 41
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-PeriodOfUse.Condition.xml",
+      "size" : 2864,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 19
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 77,
+          "length" : 155
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 81
+        },
+        {
+          "activity" : "generate2",
+          "start" : 166,
+          "length" : 184
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 58
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-PharmaceuticalTreatment.Identifier.xml",
+      "size" : 3133,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 20
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 21
+        },
+        {
+          "activity" : "validate",
+          "start" : 77,
+          "length" : 372
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 83
+        },
+        {
+          "activity" : "generate2",
+          "start" : 166,
+          "length" : 341
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 73
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-RegistrationDateTime.xml",
+      "size" : 3794,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 26
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 78,
+          "length" : 181
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 57
+        },
+        {
+          "activity" : "generate2",
+          "start" : 166,
+          "length" : 244
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 57
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-RelationAdministrationAgreement.xml",
+      "size" : 2838,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 9
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 16
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "scan",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 78,
+          "length" : 172
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 56
+        },
+        {
+          "activity" : "generate2",
+          "start" : 167,
+          "length" : 256
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 40
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-RenderedDosageInstruction.xml",
+      "size" : 3039,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 17
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 14
+        },
+        {
+          "activity" : "validate",
+          "start" : 78,
+          "length" : 148
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 67
+        },
+        {
+          "activity" : "generate2",
+          "start" : 167,
+          "length" : 191
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 41
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 7
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-ResourceCategory.xml",
+      "size" : 2745,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 15
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 78,
+          "length" : 154
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 57
+        },
+        {
+          "activity" : "generate2",
+          "start" : 167,
+          "length" : 179
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 38
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/ext-StopType.xml",
+      "size" : 4011,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 17
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 79,
+          "length" : 179
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 62
+        },
+        {
+          "activity" : "generate2",
+          "start" : 167,
+          "length" : 193
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 51
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-AdministrationAgreement.xml",
+      "size" : 29275,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 38
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 34
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 53,
+          "length" : 693
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 161
+        },
+        {
+          "activity" : "validate",
+          "start" : 79,
+          "length" : 3436
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 144,
+          "length" : 601
+        },
+        {
+          "activity" : "generate2",
+          "start" : 167,
+          "length" : 1432
+        },
+        {
+          "activity" : "generate2",
+          "start" : 191,
+          "length" : 537
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 5
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 28
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 13
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-DispenseRequest.xml",
+      "size" : 23107,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 31
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 29
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 54,
+          "length" : 282
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 114
+        },
+        {
+          "activity" : "validate",
+          "start" : 82,
+          "length" : 2422
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 145,
+          "length" : 424
+        },
+        {
+          "activity" : "generate2",
+          "start" : 169,
+          "length" : 905
+        },
+        {
+          "activity" : "generate2",
+          "start" : 192,
+          "length" : 332
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 8
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 26
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-InstructionsForUse.DosageInstructions.xml",
+      "size" : 44071,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 72
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 53
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 54,
+          "length" : 64
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 60,
+          "length" : 141
+        },
+        {
+          "activity" : "validate",
+          "start" : 85,
+          "length" : 1414
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 145,
+          "length" : 439
+        },
+        {
+          "activity" : "generate2",
+          "start" : 170,
+          "length" : 881
+        },
+        {
+          "activity" : "generate2",
+          "start" : 192,
+          "length" : 255
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 3
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 21
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationAdministration2.xml",
+      "size" : 28521,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 35
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 38
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 54,
+          "length" : 219
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 105
+        },
+        {
+          "activity" : "validate",
+          "start" : 86,
+          "length" : 2371
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 146,
+          "length" : 501
+        },
+        {
+          "activity" : "generate2",
+          "start" : 171,
+          "length" : 1320
+        },
+        {
+          "activity" : "generate2",
+          "start" : 192,
+          "length" : 321
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 9
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 29
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationAgreement.xml",
+      "size" : 33280,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 30
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 39
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 54,
+          "length" : 205
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 176
+        },
+        {
+          "activity" : "validate",
+          "start" : 88,
+          "length" : 3299
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 146,
+          "length" : 589
+        },
+        {
+          "activity" : "generate2",
+          "start" : 172,
+          "length" : 2316
+        },
+        {
+          "activity" : "generate2",
+          "start" : 193,
+          "length" : 310
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 5
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 34
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2590,
+          "length" : 6
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationDispense.xml",
+      "size" : 18363,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 32
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 24
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 55,
+          "length" : 134
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 63
+        },
+        {
+          "activity" : "validate",
+          "start" : 92,
+          "length" : 2520
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 147,
+          "length" : 345
+        },
+        {
+          "activity" : "generate2",
+          "start" : 174,
+          "length" : 987
+        },
+        {
+          "activity" : "generate2",
+          "start" : 193,
+          "length" : 197
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 3
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 57
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationOverview-Bundle.xml",
+      "size" : 4130,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 55,
+          "length" : 203
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 37
+        },
+        {
+          "activity" : "validate",
+          "start" : 94,
+          "length" : 2284
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 147,
+          "length" : 291
+        },
+        {
+          "activity" : "generate2",
+          "start" : 175,
+          "length" : 673
+        },
+        {
+          "activity" : "generate2",
+          "start" : 193,
+          "length" : 322
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 16
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationOverview.xml",
+      "size" : 17532,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 31
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 26
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 55,
+          "length" : 29
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 105
+        },
+        {
+          "activity" : "validate",
+          "start" : 96,
+          "length" : 1948
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 147,
+          "length" : 426
+        },
+        {
+          "activity" : "generate2",
+          "start" : 176,
+          "length" : 884
+        },
+        {
+          "activity" : "generate2",
+          "start" : 194,
+          "length" : 340
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 20
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationPrescription-Bundle.xml",
+      "size" : 9824,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 21
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 55,
+          "length" : 328
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 94
+        },
+        {
+          "activity" : "validate",
+          "start" : 98,
+          "length" : 3865
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 148,
+          "length" : 1174
+        },
+        {
+          "activity" : "generate2",
+          "start" : 177,
+          "length" : 1530
+        },
+        {
+          "activity" : "generate2",
+          "start" : 194,
+          "length" : 655
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 6
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 51
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 12
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationPrescriptionProcessing-Bundle.xml",
+      "size" : 7173,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 13
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 55,
+          "length" : 171
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 67
+        },
+        {
+          "activity" : "validate",
+          "start" : 102,
+          "length" : 2993
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 149,
+          "length" : 583
+        },
+        {
+          "activity" : "generate2",
+          "start" : 178,
+          "length" : 1503
+        },
+        {
+          "activity" : "generate2",
+          "start" : 195,
+          "length" : 590
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 34
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-MedicationUse2.xml",
+      "size" : 37337,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 38
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 43
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 55,
+          "length" : 291
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 138
+        },
+        {
+          "activity" : "validate",
+          "start" : 105,
+          "length" : 2545
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 150,
+          "length" : 662
+        },
+        {
+          "activity" : "generate2",
+          "start" : 180,
+          "length" : 1005
+        },
+        {
+          "activity" : "generate2",
+          "start" : 195,
+          "length" : 500
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 7
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 37
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-PharmaceuticalProduct.xml",
+      "size" : 17271,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 27
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 23
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 56,
+          "length" : 42
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 62
+        },
+        {
+          "activity" : "validate",
+          "start" : 108,
+          "length" : 609
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 150,
+          "length" : 212
+        },
+        {
+          "activity" : "generate2",
+          "start" : 181,
+          "length" : 349
+        },
+        {
+          "activity" : "generate2",
+          "start" : 196,
+          "length" : 157
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 9
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-ProposalDispenseRequest-Bundle.xml",
+      "size" : 15512,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 26
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 22
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 56,
+          "length" : 727
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 61,
+          "length" : 85
+        },
+        {
+          "activity" : "validate",
+          "start" : 108,
+          "length" : 3361
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 150,
+          "length" : 688
+        },
+        {
+          "activity" : "generate2",
+          "start" : 181,
+          "length" : 1316
+        },
+        {
+          "activity" : "generate2",
+          "start" : 196,
+          "length" : 518
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 6
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 39
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 8
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-ProposalMedicationAgreement-Bundle.xml",
+      "size" : 17452,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 28
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 56,
+          "length" : 451
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 216
+        },
+        {
+          "activity" : "validate",
+          "start" : 112,
+          "length" : 3869
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 3
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 151,
+          "length" : 829
+        },
+        {
+          "activity" : "generate2",
+          "start" : 182,
+          "length" : 1683
+        },
+        {
+          "activity" : "generate2",
+          "start" : 196,
+          "length" : 633
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 7
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 42
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-ReplyProposalDispenseRequest-Bundle.xml",
+      "size" : 6401,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 57,
+          "length" : 350
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 152
+        },
+        {
+          "activity" : "validate",
+          "start" : 116,
+          "length" : 3008
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 152,
+          "length" : 611
+        },
+        {
+          "activity" : "generate2",
+          "start" : 184,
+          "length" : 932
+        },
+        {
+          "activity" : "generate2",
+          "start" : 197,
+          "length" : 372
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 28
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-ReplyProposalDispenseRequest.xml",
+      "size" : 11154,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 16
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 12
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 57,
+          "length" : 27
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 72
+        },
+        {
+          "activity" : "validate",
+          "start" : 119,
+          "length" : 1021
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 153,
+          "length" : 220
+        },
+        {
+          "activity" : "generate2",
+          "start" : 185,
+          "length" : 468
+        },
+        {
+          "activity" : "generate2",
+          "start" : 197,
+          "length" : 105
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-ReplyProposalMedicationAgreement-Bundle.xml",
+      "size" : 6441,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 13
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 57,
+          "length" : 649
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 89
+        },
+        {
+          "activity" : "validate",
+          "start" : 120,
+          "length" : 2879
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 153,
+          "length" : 546
+        },
+        {
+          "activity" : "generate2",
+          "start" : 186,
+          "length" : 1230
+        },
+        {
+          "activity" : "generate2",
+          "start" : 197,
+          "length" : 405
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 4
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 31
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 7
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-ReplyProposalMedicationAgreement.xml",
+      "size" : 11205,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 11
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 58,
+          "length" : 37
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 50
+        },
+        {
+          "activity" : "validate",
+          "start" : 123,
+          "length" : 1352
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 153,
+          "length" : 212
+        },
+        {
+          "activity" : "generate2",
+          "start" : 187,
+          "length" : 361
+        },
+        {
+          "activity" : "generate2",
+          "start" : 198,
+          "length" : 141
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 2
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 11
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "input/resources/mp-VariableDosingRegimen.xml",
+      "size" : 28316,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 51,
+          "length" : 23
+        },
+        {
+          "activity" : "load",
+          "start" : 52,
+          "length" : 18
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 58,
+          "length" : 280
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 59,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 62,
+          "length" : 97
+        },
+        {
+          "activity" : "validate",
+          "start" : 124,
+          "length" : 2129
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 140,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 140,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 153,
+          "length" : 517
+        },
+        {
+          "activity" : "generate2",
+          "start" : 187,
+          "length" : 760
+        },
+        {
+          "activity" : "generate2",
+          "start" : 198,
+          "length" : 229
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 217,
+          "length" : 5
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 2322,
+          "length" : 21
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 2590,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 2591,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "/input/includes/menu.xml",
+      "size" : 178,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 188,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/input/pages/index.md",
+      "size" : 30,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 188,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pages",
+      "size" : 0
+    },
+    {
+      "name" : "/input/pages/index.md",
+      "size" : 30,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 188,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 140,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 188,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 30915
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/days-of-week",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DaysOfWeek",
+      "title" : "DaysOfWeek",
+      "description" : "The days of the week.",
+      "oids" : ["2.16.840.1.113883.4.642.4.513"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-days-of-week.html" : "DaysOfWeek"
+    },
+    {
+      "url" : "http://hl7.org/fhir/event-timing",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "EventTiming",
+      "title" : "EventTiming",
+      "description" : "Real world event relating to the schedule.",
+      "oids" : ["2.16.840.1.113883.4.642.4.76"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-event-timing.html" : "EventTiming"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/medication-admin-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Category Codes",
+      "title" : "Medication administration  category  codes",
+      "description" : "MedicationAdministration Category Codes",
+      "oids" : ["2.16.840.1.113883.4.642.4.1111"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-medication-admin-category.html" : "Medication administration  category  codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/medication-admin-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationAdministration Status Codes",
+      "title" : "Medication administration  status  codes",
+      "description" : "MedicationAdministration Status Codes",
+      "oids" : ["2.16.840.1.113883.4.642.4.1311"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-medication-admin-status.html" : "Medication administration  status  codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/medication-statement-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Medication usage category codes",
+      "title" : "Medication usage category codes",
+      "description" : "Medication Status Codes",
+      "oids" : ["2.16.840.1.113883.4.642.4.1120"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-medication-statement-category.html" : "Medication usage category codes"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "TimingEvent",
+      "title" : "TimingEvent",
+      "description" : "**** MISSING DESCRIPTION ****",
+      "oids" : ["2.16.840.1.113883.5.139"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-event-timing.html" : "EventTiming"
+    },
+    {
+      "url" : "http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "MedicationDispense Category Codes",
+      "title" : "Medication dispense  category  codes",
+      "description" : "MedicationDispense Category Codes",
+      "oids" : ["2.16.840.1.113883.4.642.4.1315"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-medicationdispense-category.html" : "Medication dispense  category  codes"
+    }
+  ]
+}

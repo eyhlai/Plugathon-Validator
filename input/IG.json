@@ -11,7 +11,13 @@
     "fhirVersion": [
         "4.0.1"
     ],
-    "dependsOn": [],
+    "dependsOn": [
+        {
+            "uri": "http://hl7.org/fhir/StructureDefinition/Patient",
+            "packageId": "hl7.fhir.r4.core",
+            "version": "4.0.1"
+        }
+    ],
     "definition": {
         "page": {
             "title": "Table of Contents",

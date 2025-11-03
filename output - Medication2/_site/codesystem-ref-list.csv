@@ -1,0 +1,8 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/days-of-week,4.0.1,active,"2.16.840.1.113883.4.642.4.513",DaysOfWeek,DaysOfWeek,"The days of the week.","ValueSet/days-of-week"
+http://hl7.org/fhir/event-timing,4.0.1,active,"2.16.840.1.113883.4.642.4.76",EventTiming,EventTiming,"Real world event relating to the schedule.","ValueSet/event-timing"
+http://terminology.hl7.org/CodeSystem/medication-admin-category,4.0.1,draft,"2.16.840.1.113883.4.642.4.1111",MedicationAdministration Category Codes,Medication administration  category  codes,"MedicationAdministration Category Codes","ValueSet/medication-admin-category"
+http://terminology.hl7.org/CodeSystem/medication-admin-status,4.0.1,draft,"2.16.840.1.113883.4.642.4.1311",MedicationAdministration Status Codes,Medication administration  status  codes,"MedicationAdministration Status Codes","ValueSet/medication-admin-status"
+http://terminology.hl7.org/CodeSystem/medication-statement-category,4.0.1,draft,"2.16.840.1.113883.4.642.4.1120",Medication usage category codes,Medication usage category codes,"Medication Status Codes","ValueSet/medication-statement-category"
+http://terminology.hl7.org/CodeSystem/v3-TimingEvent,3.0.0,active,"2.16.840.1.113883.5.139",TimingEvent,TimingEvent,"**** MISSING DESCRIPTION ****","ValueSet/event-timing"
+http://terminology.hl7.org/fhir/CodeSystem/medicationdispense-category,4.0.1,draft,"2.16.840.1.113883.4.642.4.1315",MedicationDispense Category Codes,Medication dispense  category  codes,"MedicationDispense Category Codes","ValueSet/medicationdispense-category"

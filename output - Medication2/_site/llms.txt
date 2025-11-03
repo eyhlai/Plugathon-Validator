@@ -1,0 +1,70 @@
+# example.org.fhir.plugathon.validation#0.1.0: null
+
+## Pages
+
+* [Plugathon validation IG](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Complex-type Profiles
+
+* [mp InstructionsForUse.DosageInstructions](StructureDefinition-mp-InstructionsForUse.DosageInstructions.md)
+
+### Resource Profiles
+
+* [mp AdministrationAgreement](StructureDefinition-mp-AdministrationAgreement.md)
+* [mp DispenseRequest](StructureDefinition-mp-DispenseRequest.md)
+* [mp MedicationAdministration2](StructureDefinition-mp-MedicationAdministration2.md)
+* [mp MedicationAgreement](StructureDefinition-mp-MedicationAgreement.md)
+* [mp MedicationDispense](StructureDefinition-mp-MedicationDispense.md)
+* [mp MedicationOverview Bundle](StructureDefinition-mp-MedicationOverview-Bundle.md)
+* [mp MedicationOverview](StructureDefinition-mp-MedicationOverview.md)
+* [mp MedicationPrescription Bundle](StructureDefinition-mp-MedicationPrescription-Bundle.md)
+* [mp MedicationPrescriptionProcessing Bundle](StructureDefinition-mp-MedicationPrescriptionProcessing-Bundle.md)
+* [mp MedicationUse2](StructureDefinition-mp-MedicationUse2.md)
+* [mp PharmaceuticalProduct](StructureDefinition-mp-PharmaceuticalProduct.md)
+* [mp ProposalDispenseRequest Bundle](StructureDefinition-mp-ProposalDispenseRequest-Bundle.md)
+* [mp ProposalMedicationAgreement Bundle](StructureDefinition-mp-ProposalMedicationAgreement-Bundle.md)
+* [mp ReplyProposalDispenseRequest Bundle](StructureDefinition-mp-ReplyProposalDispenseRequest-Bundle.md)
+* [mp ReplyProposalDispenseRequest](StructureDefinition-mp-ReplyProposalDispenseRequest.md)
+* [mp ReplyProposalMedicationAgreement Bundle](StructureDefinition-mp-ReplyProposalMedicationAgreement-Bundle.md)
+* [mp ReplyProposalMedicationAgreement](StructureDefinition-mp-ReplyProposalMedicationAgreement.md)
+* [mp VariableDosingRegimen](StructureDefinition-mp-VariableDosingRegimen.md)
+
+### Extensions
+
+* [ext AdministrationAgreement.AdditionalInformation](StructureDefinition-ext-AdministrationAgreement.AdditionalInformation.md)
+* [ext AdministrationAgreement.AdministrationAgreementDateTime](StructureDefinition-ext-AdministrationAgreement.AdministrationAgreementDateTime.md)
+* [ext AdministrationAgreement.ReasonModificationOrDiscontinuation](StructureDefinition-ext-AdministrationAgreement.ReasonModificationOrDiscontinuation.md)
+* [ext AsAgreedIndicator](StructureDefinition-ext-AsAgreedIndicator.md)
+* [ext Communication.Payload.ContentCodeableConcept](StructureDefinition-ext-Communication.Payload.ContentCodeableConcept.md)
+* [ext DispenseRequest.AdditionalWishes](StructureDefinition-ext-DispenseRequest.AdditionalWishes.md)
+* [ext DispenseRequest.DispenseLocation](StructureDefinition-ext-DispenseRequest.DispenseLocation.md)
+* [ext DispenseRequest.FinancialIndicationCode](StructureDefinition-ext-DispenseRequest.FinancialIndicationCode.md)
+* [ext Dosage AsNeededFor](StructureDefinition-ext-Dosage-AsNeededFor.md)
+* [ext InstructionsForUse.RepeatPeriodCyclicalSchedule](StructureDefinition-ext-InstructionsForUse.RepeatPeriodCyclicalSchedule.md)
+* [ext MedicationAdministration2.AgreedDateTime](StructureDefinition-ext-MedicationAdministration2.AgreedDateTime.md)
+* [ext MedicationAdministration2.InjectionPatchSite](StructureDefinition-ext-MedicationAdministration2.InjectionPatchSite.md)
+* [ext MedicationAdministration2.ReasonForDeviation](StructureDefinition-ext-MedicationAdministration2.ReasonForDeviation.md)
+* [ext MedicationAgreement.MedicationAgreementAdditionalInformation](StructureDefinition-ext-MedicationAgreement.MedicationAgreementAdditionalInformation.md)
+* [ext MedicationAgreement.NextPractitioner](StructureDefinition-ext-MedicationAgreement.NextPractitioner.md)
+* [ext MedicationAgreement.RelationMedicationUse](StructureDefinition-ext-MedicationAgreement.RelationMedicationUse.md)
+* [ext MedicationDispense.DistributionForm](StructureDefinition-ext-MedicationDispense.DistributionForm.md)
+* [ext MedicationDispense.MedicationDispenseAdditionalInformation](StructureDefinition-ext-MedicationDispense.MedicationDispenseAdditionalInformation.md)
+* [ext MedicationDispense.RequestDate](StructureDefinition-ext-MedicationDispense.RequestDate.md)
+* [Ext MedicatonOverview.SourceOrganization](StructureDefinition-ext-MedicationOverview.SourceOrganization.md)
+* [Ext MedicatonOverview.Verification](StructureDefinition-ext-MedicationOverview.Verification.md)
+* [ext MedicationUse2.Author](StructureDefinition-ext-MedicationUse2.Author.md)
+* [ext MedicationUse2.Prescriber](StructureDefinition-ext-MedicationUse2.Prescriber.md)
+* [ext-PeriodOfUse.Condition](StructureDefinition-ext-PeriodOfUse.Condition.md)
+* [ext PharmaceuticalTreatment.Identifier](StructureDefinition-ext-PharmaceuticalTreatment.Identifier.md)
+* [ext RegistrationDateTime](StructureDefinition-ext-RegistrationDateTime.md)
+* [ext RelationAdministrationAgreement](StructureDefinition-ext-RelationAdministrationAgreement.md)
+* [ext RenderedDosageInstruction](StructureDefinition-ext-RenderedDosageInstruction.md)
+* [ext ResourceCategory](StructureDefinition-ext-ResourceCategory.md)
+* [ext StopType](StructureDefinition-ext-StopType.md)
+
+### ImplementationGuides
+
+* [PlugathonValidationIG](index.md)
